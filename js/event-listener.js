@@ -31,5 +31,5 @@ Does this affect the ratio in github????
 
 // GET THE INPUT VALUE FROM THE USERNAME FIELD
 var elUsername = document.getElementById('username');
-// WHEN THE FIELD LOSES FOCUS, CALL checkUsername()
+// WHEN THE FIELD LOSES FOCUS, CALL checkUsername(), the last parameter is a boolean that indicates how events flow and is usually set to false
 elUsername.addEventListener('blur', checkUsername, false);
