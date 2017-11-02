@@ -32,4 +32,4 @@ Does this affect the ratio in github????
 // GET THE INPUT VALUE FROM THE USERNAME FIELD
 var elUsername = document.getElementById('username');
 // WHEN THE FIELD LOSES FOCUS, CALL checkUsername()
-elUsername.addEventListener('blur', checkUsername);
+elUsername.addEventListener('blur', checkUsername, false);
